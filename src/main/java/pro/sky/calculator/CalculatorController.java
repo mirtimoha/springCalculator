@@ -24,6 +24,7 @@ public class CalculatorController {
             return "Ошибка! Один или два аргумента не указаны!";
         return calculatorService.plus(num1, num2);
     }
+
     @GetMapping("minus")
     public String minus(@RequestParam(value="num1", required=false) Integer num1,
                         @RequestParam(value="num2", required=false) Integer num2) {
