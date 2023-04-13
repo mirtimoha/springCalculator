@@ -3,6 +3,7 @@ package pro.sky.calculator;
 import org.springframework.stereotype.Service;
 
 
+
 public interface CalculatorService {
     String hello();
     String plus(Integer num1, Integer num2);

@@ -18,6 +18,7 @@ public class CalculatorServiceImpl implements CalculatorService {
         return num1 + " - " + num2 + " = " + (num1 - num2);
     }
 
+
     @Override
     public String multiply(Integer num1, Integer num2) {
         return num1 + " * " + num2 + " = " + (num1 * num2);
